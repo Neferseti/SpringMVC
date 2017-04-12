@@ -11,7 +11,9 @@ public class HelloWorldController extends AbstractController {
 	@Override
 	protected ModelAndView handleRequestInternal(HttpServletRequest arg0, HttpServletResponse arg1) throws Exception {
 		// TODO Auto-generated method stub
-		return null;
+		ModelAndView modelAndView = new ModelAndView("HelloWorldPage");
+		modelAndView.addObject("welcomeMessage", "Hello Mani!");
+		return modelAndView;
 	}
 
 }
