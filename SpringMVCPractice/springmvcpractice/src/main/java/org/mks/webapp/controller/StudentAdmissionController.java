@@ -8,17 +8,18 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class StudentAdmissionController {
-	
-	@RequestMapping(value="/admissionForm.html", method=RequestMethod.GET)
-	public ModelAndView getAdmissionForm(){
+
+	@RequestMapping(value = "/admissionForm.html", method = RequestMethod.GET)
+	public ModelAndView getAdmissionForm() {
 		ModelAndView modelAndView = new ModelAndView("AdmissionForm");
 		return modelAndView;
 	}
-	
-	@RequestMapping(value="submitAdmissionForm.html", method=RequestMethod.POST)
-	public ModelAndView submitAdmissionForm(@RequestParam("studentName") String name, @RequestParam("studentHobby") String hobby){
+
+	@RequestMapping(value = "submitAdmissionForm.html", method = RequestMethod.POST)
+	public ModelAndView submitAdmissionForm(@RequestParam("studentName") String name,
+			@RequestParam("studentHobby") String hobby) {
 		ModelAndView modelAndView = new ModelAndView("AdmissionSuccess");
-		modelAndView.addObject("msg", "Details submitted: Name- "+name+", Hobby- "+hobby);
+		modelAndView.addObject("msg", "Details submitted: Name- " + name + ", Hobby- " + hobby);
 		return modelAndView;
 	}
 }
