@@ -5,7 +5,7 @@
 
 	<bean id="HandlerMapping" class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping" />
 	
-	<bean name="/welcome.html" class="org.mks.webappa.controller.HelloWorldController"/>
+	<bean name="/welcome.html" class="org.mks.webapp.controller.HelloWorldController"/>
 	
 	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix">

@@ -1,4 +1,4 @@
-package org.mks.webappa.controller;
+package org.mks.webapp.controller;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
