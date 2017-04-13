@@ -19,6 +19,18 @@
 			<td>Student Name:</td>
 			<td>${student1.studentHobby}</td>
 		</tr>
+		<tr>
+			<td>Student Mobile Number:</td>
+			<td>${student1.studentMobileNumber}</td>
+		</tr>
+		<tr>
+			<td>Student DOB:</td>
+			<td>${student1.studentDOB}</td>
+		</tr>
+		<tr>
+			<td>Student Skills:</td>
+			<td>${student1.studentSkills}</td>
+		</tr>
 	</table>
 </body>
 </html>

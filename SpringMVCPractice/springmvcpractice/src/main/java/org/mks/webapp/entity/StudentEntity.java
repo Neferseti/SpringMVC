@@ -1,8 +1,14 @@
 package org.mks.webapp.entity;
 
+import java.util.ArrayList;
+import java.util.Date;
+
 public class StudentEntity {
 	private String studentName;
 	private String studentHobby;
+	private Long studentMobileNumber;
+	private Date studentDOB;
+	private ArrayList<String> studentSkills;
 	
 	public String getStudentName() {
 		return studentName;
@@ -15,6 +21,24 @@ public class StudentEntity {
 	}
 	public void setStudentHobby(String studentHobby) {
 		this.studentHobby = studentHobby;
+	}
+	public Long getStudentMobileNumber() {
+		return studentMobileNumber;
+	}
+	public void setStudentMobileNumber(Long studentMobileNumber) {
+		this.studentMobileNumber = studentMobileNumber;
+	}
+	public Date getStudentDOB() {
+		return studentDOB;
+	}
+	public void setStudentDOB(Date studentDOB) {
+		this.studentDOB = studentDOB;
+	}
+	public ArrayList<String> getStudentSkills() {
+		return studentSkills;
+	}
+	public void setStudentSkills(ArrayList<String> studentSkills) {
+		this.studentSkills = studentSkills;
 	}
 	
 }
