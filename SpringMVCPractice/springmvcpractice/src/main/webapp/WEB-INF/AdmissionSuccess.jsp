@@ -8,6 +8,17 @@
 </head>
 <body>
 	<h1>Congratulations</h1>
-	<h2>${msg} }</h2>
+	<h2>${headerMessage}</h2>
+	
+	<table>
+		<tr>
+			<td>Student Name:</td>
+			<td>${student1.studentName}</td>
+		</tr>
+		<tr>
+			<td>Student Name:</td>
+			<td>${student1.studentHobby}</td>
+		</tr>
+	</table>
 </body>
 </html>
