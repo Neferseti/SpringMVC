@@ -10,6 +10,14 @@ public class StudentEntity {
 	private Date studentDOB;
 	private ArrayList<String> studentSkills;
 	
+	private AddressEntity studentAddress;
+
+	public AddressEntity getStudentAddress() {
+		return studentAddress;
+	}
+	public void setStudentAddress(AddressEntity studentAddress) {
+		this.studentAddress = studentAddress;
+	}
 	public String getStudentName() {
 		return studentName;
 	}

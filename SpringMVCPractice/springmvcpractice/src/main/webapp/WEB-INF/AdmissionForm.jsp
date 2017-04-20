@@ -31,6 +31,13 @@
 											</select></td>
 			</tr>
 		</table>
+		<table>
+			<tr><td>Student's Address</td></tr>
+			<tr><td>country <input type="text" name="studentAddress.country" /></td></tr>
+			<tr><td>city <input type="text" name="studentAddress.city" /></td></tr>
+			<tr><td>street <input type="text" name="studentAddress.street" /></td></tr>
+			<tr><td>pincode <input type="text" name="studentAddress.pincode" /></td></tr>
+		</table>
 		<input type="submit" value="Submit"/>
 	</form>
 </body>
